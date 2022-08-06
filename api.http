@@ -1,0 +1,32 @@
+
+
+
+GET http://localhost:5000/products
+
+###
+
+POST  http://localhost:5000/products
+Content-Type: application/json
+
+{
+     "name":"product 1",
+   "description":"description 1"
+}
+
+###
+
+GET http://localhost:5000/products/e4d0c47e-9a99-44e7-9a23-449db8108f23
+
+###
+
+PATCH http://localhost:5000/products/e4d0c47e-9a99-44e7-9a23-449db8108f23
+Content-Type: application/json
+
+{
+     "name":"product updated 1",
+   "description":"description 1"
+}
+
+###
+
+DELETE http://localhost:5000/products/e4d0c47e-9a99-44e
